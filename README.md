@@ -41,7 +41,7 @@ q = [ s, v[0], v[1], v[2] ]
 Applying the rotation to vector **v**:
 
 ~~~
-v' = q \, v \, q^{-1}
+v' = q , v, q^{-1}
 ~~~
 
 ---
