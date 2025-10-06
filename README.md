@@ -28,11 +28,11 @@ This project visualizes **quaternionic storage of 3D rotation** in MATLAB throug
 ## Mathematical Background
 
 A rotation quaternion is defined as:
-
+~~~
 s = cos(theta/2)
 v = [ ux*sin(theta/2), uy*sin(theta/2), uz*sin(theta/2) ]
 q = [ s, v[0], v[1], v[2] ]
-
+~~~
 
 - **θ** — rotation angle in 3D space  
 - **u** — unit vector rotation axis  
